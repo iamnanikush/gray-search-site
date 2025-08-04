@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gray Search Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #b4b4b4;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section:nth-of-type(odd) {
+      background-color: #ffffff;
+    }
+    section:nth-of-type(even) {
+      background-color: #eaeaea;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gray Search Group</h1>
+    <p>Elite Talent Acquisition for Physicians and Veterinarians</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#press">Press</a>
+    <a href="#physicians">Physicians</a>
+    <a href="#veterinarians">Veterinarians</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>[Placeholder content]</p>
+  </section>
+
+  <section id="press">
+    <h2>Press</h2>
+    <p>[Placeholder content]</p>
+  </section>
+
+  <section id="physicians">
+    <h2>Physicians</h2>
+    <p>[Placeholder content]</p>
+  </section>
+
+  <section id="veterinarians">
+    <h2>Veterinarians</h2>
+    <p>[Placeholder content]</p>
+  </section>
+
+  <section id="team">
+    <h2>Team</h2>
+    <p>[Placeholder content]</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>[Placeholder content]</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gray Search Group. All rights reserved.</p>
+  </footer>
+</body>
+</html>
